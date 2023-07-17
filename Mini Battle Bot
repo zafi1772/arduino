@@ -1,7 +1,7 @@
 #include <Servo.h>
 
 Servo esc;  // Create a servo object
-
+//Zan Tech
 int L_EN_FOR_ONE=3;
 int R_EN_FOR_ONE=4;
 int L_PWM_FOR_ONE=5;
@@ -211,14 +211,14 @@ void stopo(){
   analogWrite(R_PWM_FOR_TWO,0);
   analogWrite(L_PWM_FOR_TWO,0);
   
-  
+  //Hana
   };
 void forward_left(){
    analogWrite(R_PWM_FOR_ONE,0);
   analogWrite(L_PWM_FOR_ONE,0);
   analogWrite(R_PWM_FOR_TWO,speed_max);
   analogWrite(L_PWM_FOR_TWO,0);
-  
+  //Nakib
   
   };
 void forward_right(){
